@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77C2CA522F3A65F00B431D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CA422F3A65F00B431D4 /* AppDelegate.swift */; };
+		D77C2CAA22F3A65F00B431D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77C2CA822F3A65F00B431D4 /* Main.storyboard */; };
+		D77C2CAC22F3A66000B431D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77C2CAB22F3A66000B431D4 /* Assets.xcassets */; };
+		D77C2CAF22F3A66000B431D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77C2CAD22F3A66000B431D4 /* LaunchScreen.storyboard */; };
+		D77C2CBA22F3B13A00B431D4 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CB922F3B13A00B431D4 /* SplashScreenViewController.swift */; };
+		D77C2CBC22F3B17D00B431D4 /* PowerRangerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CBB22F3B17D00B431D4 /* PowerRangerTableViewController.swift */; };
+		D77C2CBE22F3B18E00B431D4 /* PowerRanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CBD22F3B18E00B431D4 /* PowerRanger.swift */; };
+		D77C2CC022F3C00E00B431D4 /* PowerRangerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CBF22F3C00E00B431D4 /* PowerRangerDetailViewController.swift */; };
+		D77C2CC222F3C01B00B431D4 /* PowerRangerAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CC122F3C01B00B431D4 /* PowerRangerAddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D77C2CA122F3A65F00B431D4 /* Talking-Power-Rangers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Talking-Power-Rangers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77C2CA422F3A65F00B431D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77C2CA922F3A65F00B431D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77C2CAB22F3A66000B431D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77C2CAE22F3A66000B431D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77C2CB022F3A66000B431D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77C2CB922F3B13A00B431D4 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		D77C2CBB22F3B17D00B431D4 /* PowerRangerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerTableViewController.swift; sourceTree = "<group>"; };
+		D77C2CBD22F3B18E00B431D4 /* PowerRanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRanger.swift; sourceTree = "<group>"; };
+		D77C2CBF22F3C00E00B431D4 /* PowerRangerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerDetailViewController.swift; sourceTree = "<group>"; };
+		D77C2CC122F3C01B00B431D4 /* PowerRangerAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerAddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77C2C9E22F3A65F00B431D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77C2C9822F3A65F00B431D4 = {
+			isa = PBXGroup;
+			children = (
+				D77C2CA322F3A65F00B431D4 /* Talking-Power-Rangers */,
+				D77C2CA222F3A65F00B431D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77C2CA222F3A65F00B431D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77C2CA122F3A65F00B431D4 /* Talking-Power-Rangers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77C2CA322F3A65F00B431D4 /* Talking-Power-Rangers */ = {
+			isa = PBXGroup;
+			children = (
+				D77C2CB822F3B12600B431D4 /* Models */,
+				D77C2CB722F3B11B00B431D4 /* Views */,
+				D77C2CB622F3B11400B431D4 /* Controllers */,
+				D77C2CA422F3A65F00B431D4 /* AppDelegate.swift */,
+				D77C2CA822F3A65F00B431D4 /* Main.storyboard */,
+				D77C2CAB22F3A66000B431D4 /* Assets.xcassets */,
+				D77C2CAD22F3A66000B431D4 /* LaunchScreen.storyboard */,
+				D77C2CB022F3A66000B431D4 /* Info.plist */,
+			);
+			path = "Talking-Power-Rangers";
+			sourceTree = "<group>";
+		};
+		D77C2CB622F3B11400B431D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D77C2CB922F3B13A00B431D4 /* SplashScreenViewController.swift */,
+				D77C2CBB22F3B17D00B431D4 /* PowerRangerTableViewController.swift */,
+				D77C2CBF22F3C00E00B431D4 /* PowerRangerDetailViewController.swift */,
+				D77C2CC122F3C01B00B431D4 /* PowerRangerAddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D77C2CB722F3B11B00B431D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D77C2CB822F3B12600B431D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D77C2CBD22F3B18E00B431D4 /* PowerRanger.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77C2CA022F3A65F00B431D4 /* Talking-Power-Rangers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77C2CB322F3A66000B431D4 /* Build configuration list for PBXNativeTarget "Talking-Power-Rangers" */;
+			buildPhases = (
+				D77C2C9D22F3A65F00B431D4 /* Sources */,
+				D77C2C9E22F3A65F00B431D4 /* Frameworks */,
+				D77C2C9F22F3A65F00B431D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Talking-Power-Rangers";
+			productName = "Talking-Power-Rangers";
+			productReference = D77C2CA122F3A65F00B431D4 /* Talking-Power-Rangers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77C2C9922F3A65F00B431D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "AlphaGrade, INC.";
+				TargetAttributes = {
+					D77C2CA022F3A65F00B431D4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D77C2C9C22F3A65F00B431D4 /* Build configuration list for PBXProject "Talking-Power-Rangers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77C2C9822F3A65F00B431D4;
+			productRefGroup = D77C2CA222F3A65F00B431D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77C2CA022F3A65F00B431D4 /* Talking-Power-Rangers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77C2C9F22F3A65F00B431D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C2CAF22F3A66000B431D4 /* LaunchScreen.storyboard in Resources */,
+				D77C2CAC22F3A66000B431D4 /* Assets.xcassets in Resources */,
+				D77C2CAA22F3A65F00B431D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77C2C9D22F3A65F00B431D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C2CA522F3A65F00B431D4 /* AppDelegate.swift in Sources */,
+				D77C2CC222F3C01B00B431D4 /* PowerRangerAddViewController.swift in Sources */,
+				D77C2CBC22F3B17D00B431D4 /* PowerRangerTableViewController.swift in Sources */,
+				D77C2CBE22F3B18E00B431D4 /* PowerRanger.swift in Sources */,
+				D77C2CC022F3C00E00B431D4 /* PowerRangerDetailViewController.swift in Sources */,
+				D77C2CBA22F3B13A00B431D4 /* SplashScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D77C2CA822F3A65F00B431D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77C2CA922F3A65F00B431D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77C2CAD22F3A66000B431D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77C2CAE22F3A66000B431D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77C2CB122F3A66000B431D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D77C2CB222F3A66000B431D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77C2CB422F3A66000B431D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMWTV546RX;
+				INFOPLIST_FILE = "Talking-Power-Rangers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.AlphaGradeINC.Talking-Power-Rangers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77C2CB522F3A66000B431D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMWTV546RX;
+				INFOPLIST_FILE = "Talking-Power-Rangers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.AlphaGradeINC.Talking-Power-Rangers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77C2C9C22F3A65F00B431D4 /* Build configuration list for PBXProject "Talking-Power-Rangers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C2CB122F3A66000B431D4 /* Debug */,
+				D77C2CB222F3A66000B431D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77C2CB322F3A66000B431D4 /* Build configuration list for PBXNativeTarget "Talking-Power-Rangers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C2CB422F3A66000B431D4 /* Debug */,
+				D77C2CB522F3A66000B431D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77C2C9922F3A65F00B431D4 /* Project object */;
+}
