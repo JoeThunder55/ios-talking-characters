@@ -9,33 +9,35 @@
 import Foundation
 
 enum colors: String {
-    case red
-    case green
-    case blue
-    case yellow
-    case pink
-    case black
+    case black = "Black"
+    case yellow = "Yellow"
+    case blue = "Blue"
+    case pink = "Pink"
+    case red = "Red"
+    case green = "Green"
+    case white = "White"
     
 }
 
-enum zords {
-    case mastadon
-    case sabertoothTiger
-    case triceratops
-    case pterodactyl
-    case tyranasaurus
-    case dragonzord
+enum zords: String {
+    case black = "Mastadon"
+    case yellow = "Sabertooth Tiger"
+    case blue = "Triceratops"
+    case pink = "Pterodactyl"
+    case red = "Tyrannosaurus"
+    case green = "DragonZord"
+    case white = "White TigerZord"
 }
 
 class PowerRanger {
     let name: String
-    let color: colors
-    let zord: zords
+    let color: String
+    let zord: String
     
-    init(name: String, color: colors, zord: zords ) {
+    init(name: String, color: colors.RawValue) {
         self.name = name
         self.color = color
-        self.zord = zord
+        self.zord = color
     }
 }
     
@@ -43,4 +45,4 @@ class PowerRanger {
 
 
 
-let Tommy = PowerRanger(name: "Tommy Oliver", color: .green, zord: .dragonzord)
+let tommy = PowerRanger(name: "Tommy Oliver", color: "green")

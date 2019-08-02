@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q6V-ak-xWX">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,11 +25,6 @@
                                 <state key="normal" title="Back to Action!">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <segue destination="q6V-ak-xWX" kind="popoverPresentation" popoverAnchorView="xzc-V3-11l" id="OvZ-ig-uiC">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="2ae-f7-Wxa">
                                 <rect key="frame" x="82" y="113" width="250" height="680"/>
@@ -48,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="397" y="119"/>
+            <point key="canvasLocation" x="351" y="-359"/>
         </scene>
         <!--Power Rangers-->
         <scene sceneID="I0Z-ee-Hdd">
@@ -59,7 +54,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToSelectedPR" rowHeight="104" id="ryu-M5-EyK">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToPRAdd" rowHeight="104" id="ryu-M5-EyK" customClass="PowerRangerTableViewCell" customModule="Talking_Power_Rangers" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="104"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ryu-M5-EyK" id="0jm-KD-ehe">
@@ -75,13 +70,19 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZOR-I1-wyR">
                                                             <rect key="frame" x="0.0" y="0.0" width="310.5" height="103.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrb-Z6-LFZ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="310.5" height="83"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrb-Z6-LFZ">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="310.5" height="62.5"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQz-C9-VRZ">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ranger Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQz-C9-VRZ">
+                                                                    <rect key="frame" x="0.0" y="62.5" width="310.5" height="20.5"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Zord Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psA-K2-BKF">
                                                                     <rect key="frame" x="0.0" y="83" width="310.5" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <nil key="textColor"/>
@@ -113,7 +114,11 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="q9z-Xh-AfF" kind="presentation" identifier="ToDetail" id="PRt-cz-Vde"/>
+                                    <outlet property="nameLabel" destination="qrb-Z6-LFZ" id="TBA-yI-3RW"/>
+                                    <outlet property="rangerImage" destination="JRJ-hC-VaS" id="cKW-Fw-iqG"/>
+                                    <outlet property="rangerLabel" destination="pQz-C9-VRZ" id="r88-xI-Udx"/>
+                                    <outlet property="zordLabel" destination="psA-K2-BKF" id="g8u-lA-m9E"/>
+                                    <segue destination="q9z-Xh-AfF" kind="presentation" identifier="ToDetailPR" id="PRt-cz-Vde"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -125,6 +130,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="BhB-ld-ICG" id="e8E-Z4-sft"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdF-YS-wGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,10 +146,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="loA-z4-fQq">
-                                <rect key="frame" x="0.0" y="264" width="414" height="41"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vzg-bb-7Co">
                                 <rect key="frame" x="20" y="187" width="218" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -166,11 +170,26 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcN-fX-XTN">
                                 <rect key="frame" x="0.0" y="847" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem systemItem="cancel" id="gva-8S-bVL"/>
+                                    <barButtonItem systemItem="cancel" id="gva-8S-bVL">
+                                        <connections>
+                                            <action selector="cancelPressed:" destination="exh-me-yGU" id="FUf-xI-mSP"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="qTC-44-NRS"/>
-                                    <barButtonItem systemItem="save" id="Lyk-2V-vt7"/>
+                                    <barButtonItem systemItem="save" id="Lyk-2V-vt7">
+                                        <connections>
+                                            <action selector="savePressed:" destination="exh-me-yGU" id="iLt-cN-cpe"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Color" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Za9-Mx-7DW">
+                                <rect key="frame" x="20" y="264" width="218" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -180,6 +199,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MzF-dy-TAX"/>
                     </view>
+                    <connections>
+                        <outlet property="colorTextField" destination="Za9-Mx-7DW" id="ZWj-l9-6Ug"/>
+                        <outlet property="nameTextField" destination="vzg-bb-7Co" id="ofi-qW-TvO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YyL-bc-qtN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -232,6 +255,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8c8-XJ-hcY"/>
                     </view>
+                    <connections>
+                        <outlet property="colorLabel" destination="KmG-pf-xLC" id="QyI-z0-5Gs"/>
+                        <outlet property="nameLabel" destination="esO-33-aFb" id="vZd-mn-5ce"/>
+                        <outlet property="rangerImageView" destination="Vnu-jF-yLq" id="r8Z-cI-TRH"/>
+                        <outlet property="zordLabel" destination="hJ5-Lo-1nv" id="TmG-c6-VND"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZUi-2d-CqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

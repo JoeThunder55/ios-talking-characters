@@ -16,6 +16,7 @@
 		D77C2CBE22F3B18E00B431D4 /* PowerRanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CBD22F3B18E00B431D4 /* PowerRanger.swift */; };
 		D77C2CC022F3C00E00B431D4 /* PowerRangerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CBF22F3C00E00B431D4 /* PowerRangerDetailViewController.swift */; };
 		D77C2CC222F3C01B00B431D4 /* PowerRangerAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CC122F3C01B00B431D4 /* PowerRangerAddViewController.swift */; };
+		D77C2CC422F3C1A300B431D4 /* PowerRangerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C2CC322F3C1A300B431D4 /* PowerRangerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D77C2CBD22F3B18E00B431D4 /* PowerRanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRanger.swift; sourceTree = "<group>"; };
 		D77C2CBF22F3C00E00B431D4 /* PowerRangerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerDetailViewController.swift; sourceTree = "<group>"; };
 		D77C2CC122F3C01B00B431D4 /* PowerRangerAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerAddViewController.swift; sourceTree = "<group>"; };
+		D77C2CC322F3C1A300B431D4 /* PowerRangerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		D77C2CB722F3B11B00B431D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D77C2CC322F3C1A300B431D4 /* PowerRangerTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				D77C2CC222F3C01B00B431D4 /* PowerRangerAddViewController.swift in Sources */,
 				D77C2CBC22F3B17D00B431D4 /* PowerRangerTableViewController.swift in Sources */,
 				D77C2CBE22F3B18E00B431D4 /* PowerRanger.swift in Sources */,
+				D77C2CC422F3C1A300B431D4 /* PowerRangerTableViewCell.swift in Sources */,
 				D77C2CC022F3C00E00B431D4 /* PowerRangerDetailViewController.swift in Sources */,
 				D77C2CBA22F3B13A00B431D4 /* SplashScreenViewController.swift in Sources */,
 			);

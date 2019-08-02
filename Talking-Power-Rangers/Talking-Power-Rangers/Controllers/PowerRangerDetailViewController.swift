@@ -9,22 +9,34 @@
 import UIKit
 
 class PowerRangerDetailViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var rangerImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var zordLabel: UILabel!
+    @IBOutlet weak var colorLabel: UILabel!
+    
+    var ranger: PowerRanger? {
+        didSet {
+            
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        updateViews()
     }
-    */
+    
+    //MARK: - data displayed on detail view
+        private func updateViews() {
+        guard let ranger = ranger else { return }
+        
+        nameLabel.text = ranger.name
+        zordLabel.text = ranger.color
+        colorLabel.text = ranger.color
+//        rangerImageView.image = "red.png"
+        
+    }
+
+
 
 }
