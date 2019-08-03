@@ -29,7 +29,7 @@ enum zords: String {
     case white = "White TigerZord"
 }
 
-class PowerRanger {
+struct PowerRanger {
     let name: String
     let color: String
     let zord: String
@@ -45,4 +45,4 @@ class PowerRanger {
 
 
 
-let tommy = PowerRanger(name: "Tommy Oliver", color: "green")
+//let tommy = PowerRanger(name: "Tommy Oliver", color: "green")

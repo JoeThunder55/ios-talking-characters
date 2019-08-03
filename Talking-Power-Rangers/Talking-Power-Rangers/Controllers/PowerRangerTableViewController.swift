@@ -10,7 +10,7 @@ import UIKit
 
 class PowerRangerTableViewController: UIViewController {
     
-    @IBOutlet var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     var powerRangers: [PowerRanger] = []
 
@@ -23,7 +23,7 @@ class PowerRangerTableViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "ToAddNewPR" {
+        if segue.identifier == "FromAddNewPR" {
             if let vc = segue.destination as? PowerRangerAddViewController {
                 vc.delegate = self
             }
@@ -47,7 +47,7 @@ extension PowerRangerTableViewController: UITableViewDataSource {
     
     
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ToDetail") as? PowerRangerTableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ToDetailPR") as? PowerRangerTableViewCell else { return UITableViewCell() }
         
         let ranger = powerRangers[indexPath.row]
         cell.ranger = ranger
